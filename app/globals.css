@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  
+  padding: 20px;
+}
+.expence {
+  background: #ffffff;
+  border-radius: 22px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid #dbe7ff;
+}
+.expence h1 {
+  text-align: center;
+  color: #1d3557;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+span {
+  color: #3a86ff;
+}
+.balance {
+  background-color: #f9fbff;
+  width: auto;
+  height: 55px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-left: 5px solid #3a86ff;
+}
+.balance-h4 {
+  color: #6c757d;
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #3a86ff;
+}
+.balance-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.income-expences-box {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.income {
+  width: 185px;
+  height: 80px;
+  background-color: #f7fff9;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  border-top: 5px solid #2ecc71;
+  color: #2ecc71;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.expences {
+  font-size: 12px;
+  width: 185px;
+  height: 80px;
+  border-top: 5px solid #ff4d6d;
+  color: #ff4d6d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff7f8;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+}
+
+.content-box {
+  background-color: #f9fbff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  width: auto;
+  margin-top: 15px;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.content-box h3 {
+  color: #1d3557;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.transections p {
+  font-size: 12px;
+}
+.Amount p {
+  font-size: 12px;
+}
+input {
+  width: 97%;
+  margin-top: 13px;
+  height: 30px;
+  border: 1px solid #cddafd;
+  border-radius: 8px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 11px;
+  background-color: white;
+}
+
+input:focus {
+  border-color: #3a86ff;
+  box-shadow: 0 0 6px rgba(58, 134, 255, 0.3);
+}
+
+.input-box {
+  margin-top: 4px;
+  width: auto;
+  border-radius: 14px;
+  background-color: #f4f9ff;
+  padding: 20px;
+}
+.input-box h3 {
+  color: #3a86ff;
+}
+.addtransection {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -25px;
+  padding: 20px;
+}
+
+#btn {
+  background: linear-gradient(135deg, #3a86ff, #5f9dff);
+  margin-top: 20px;
+  width: 100%;
+  height: 33px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#btn:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 2px 11px rgba(22, 24, 26, 0.3);
+}
+#btn:active {
+  transform: scale(0.96);
+  box-shadow: 0px 0px 0px rgba(22, 24, 26, 0.3);
+}
+.transection-name {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  color: #6d6a6a;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#btn-delete {
+  background-color: red;
+  color: white;
+  width: 45px;
+  height: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgb(113, 110, 110);
+  font-weight: bold;
+  font-size: 8px;
+  cursor: pointer;
+  bottom: 5px;
+  position: relative;
+}
+#btn-delete:active {
+  transform: scale(0.9);
+  font-weight: 600;
+  background-color: rgb(253, 11, 11);
+  box-shadow: 0px 0px 0px rgb(113, 110, 110);
+}
+.apple{
+  color: #3a86ff;
+  position: relative;
+  top: 3px;
+  width: 18px;
+
+}
+.arrow{
+  position: relative;
+  left: 37px;
+  bottom: 25px;
+  width: 13px;
+}
+.income-expences-h3{
+  position: relative;
+  left: 10px;
+  bottom: 8px;
+}
+.wallet{
+  width: 18px;
+  color: #3a86ff;
+}
+.history{
+  width: 13px;
+  position: relative;
+  left: 5px;
+  top: 8px;
+}
+@media (max-width: 480px) {
+
+  .parent {
+    padding: 10px; 
+  }
+.apple{
+  color: #3a86ff;
+  position: relative;
+  top: 6px;
+  width: 15px;
+}
+  .expence {
+    width: 100%; 
+    max-width: 360px;
+    padding: 15px;
+  }
+
+  .expence h1 {
+    font-size: 16px;
+  }
+
+  .balance {
+    height: auto;
+    padding: 30px;
+    background-color: #ebf2fe;
+  border-left: 3px solid #3a86ff;
+
+  }
+
+  .income-expences-box {
+    gap: 10px; 
+  }
+
+  .income, .expences {
+    width: 50%; 
+    height: 80px;
+  }
+  .income{
+  border-top: 3px solid #2ecc71;
+
+  }
+.expences{
+  border-top: 3px solid #ff4d6d;
+}
+  .content-box, .input-box {
+    padding: 15px;
+    
+  }
+.content-box{
+  background-color: #f6f8ff;
+}
+.input-box{
+  background-color: #eff4fc;
+
+}
+  .addtransection {
+    padding: 10px 5px;
+  }
+
+  .transection-name {
+    width: 60%; 
+  }
+  
+  input {
+    width: 93%; 
+  }
+  .input-box{
+    margin-top: 30px;
+  }
+}
